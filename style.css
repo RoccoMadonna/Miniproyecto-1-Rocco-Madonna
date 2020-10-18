@@ -37,12 +37,32 @@ body{
 .carrusel{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+    margin-top: 10px;
+    max-width: 1000px;
+    max-height: 800px;
+}
+
+.slides{
+    display: flex;
+    align-items: center;
+    width: 100%;
     max-width: 800px;
     max-height: 800px;
+    box-sizing: border-box;
     margin: auto;
-    margin-top: 10px;
+}
+
+.fotos{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    max-height: 800px;
+    box-sizing: border-box;
+    margin: auto;
 }
 
 .numero{
@@ -50,6 +70,7 @@ body{
     font-size: medium;
     text-align: center;
 }
+
 
 .prev, .next{
     cursor: pointer;
@@ -67,7 +88,7 @@ body{
 }
 
 .next { 
-    right: 359px;
+    right: 270px;
     border-radius: 3px 0 0 3px;
 }
 

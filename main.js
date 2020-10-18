@@ -27,6 +27,8 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
 }
 
-function goToExperience(){
-    
+const skills = {
+    HTML: "77/100",
+    CSS: "69/100",
+    JS: "42.0/100",
 }
