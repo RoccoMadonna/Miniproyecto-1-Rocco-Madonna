@@ -15,6 +15,13 @@ body{
     margin-top: 100px;
 }
 
+#tituloExperiencia{
+    text-align: center;
+    color: lightyellow;
+    margin: auto;
+    margin-top: 10px;
+}
+
 #desc{
     color: lightyellow;
     text-align: center;
@@ -64,6 +71,34 @@ body{
 
 .dots{
     text-align:center;
+}
+
+
+.proyectos{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color: black;
+    font-size: large;
+}
+
+
+.imagenes{
+    box-sizing: border-box;
+    max-width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nums{
+    color: black;
 }
 
 .navbar{
