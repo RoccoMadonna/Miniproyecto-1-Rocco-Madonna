@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: radial-gradient(orange, black);
+    background-image: radial-gradient(orange, silver);
 
 }
 
@@ -16,6 +16,13 @@ body{
 }
 
 #tituloExperiencia{
+    text-align: center;
+    color: lightyellow;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#tituloAbout{
     text-align: center;
     color: lightyellow;
     margin: auto;
@@ -87,6 +94,18 @@ body{
     font-size: large;
 }
 
+.about{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: auto;
+    margin-top: 10px;
+    color: black;
+    font-size: large;
+}
 
 .imagenes{
     box-sizing: border-box;
