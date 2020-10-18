@@ -1,0 +1,33 @@
+.navbar{
+    background-color: white;
+    opacity: 0.75;
+    color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 20px;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+.navbar .links{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar .links li{
+    font-size: 30px;
+    display: flex;
+    height: 100%;
+    list-style-type: none;
+    padding: 10px 50px;
+}
+
+.links li:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
