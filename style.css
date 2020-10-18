@@ -29,9 +29,53 @@ body{
     margin-top: 10px;
 }
 
+#tituloContact{
+    text-align: center;
+    color: lightyellow;
+    margin: auto;
+    margin-top: 10px;
+}
+
 #desc{
     color: lightyellow;
     text-align: center;
+}
+
+#formulario{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    flex-direction: column; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color: black;
+    font-size: large;
+}
+
+.wha{
+    font-size: large;
+    display: flex;
+    color: lightyellow;
+    justify-content: center;
+}
+
+.redes{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fotosRedes{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 80px;
+    max-height: 80px;
+    box-sizing: border-box;
+    margin: auto;
 }
 
 .carrusel{

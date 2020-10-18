@@ -27,6 +27,16 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
 }
 
+const nom = document.getElementById("nom");
+const correo = document.getElementById("email");
+const mensaje = document.getElementById("mensaje");
+
+function showAlert() {
+    alert("FUCK" + nom + correo + mensaje);
+}
+
+
+
 const skills = {
     HTML: "77/100",
     CSS: "69/100",
